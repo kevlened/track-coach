@@ -1,0 +1,21 @@
+{
+  "name": "track-coach",
+  "version": "0.0.0",
+  "description": "Simple replacement for npm run scripts",
+  "main": "index.js",
+  "scripts": {
+    "release": "git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevlened/track-coach.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevlened/track-coach/issues"
+  },
+  "homepage": "https://github.com/kevlened/track-coach#readme",
+  "dependencies": {
+    "dlv": "^1.1.2"
+  }
+}
